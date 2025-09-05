@@ -1,0 +1,148 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Farmaku.com",
+            "client": "PT. Solusi Sarana Sehat",
+            "link": "https://www.farmaku.com",
+            "tags": "Apotek Online, E-commerce, HealthTech, Farmasi, Frontend Developer, UI/UX, SEO, iOS, Android, Retail",
+            "description": "Farmaku adalah apotek online terpercaya di Indonesia. Platform ini menyediakan obat resep, obat OTC, produk kesehatan, kecantikan, perawatan tubuh, dan alat kesehatan.",
+            "images" : ["Farmaku Article (Wordpress)/home.png", "Farmaku Article (Wordpress)/category.png", "Farmaku Article (Wordpress)/reccomendation.png"]
+        },
+        {
+            "id": 2,
+            "title": "CDI Facility Services",
+            "client": "PT. Catur Dharma Integritas",
+            "link": "#",
+            "tags": "Cleaning Service, Facility Management, Mobile App, Service Industry, Frontend Developer, UI/UX, iOS, Android",
+            "description": "A mobile application for CDI Facility Services, a professional cleaning service company in Indonesia. The app helps manage cleaning schedules, service requests, and customer communication efficiently.",
+            "images" : ["CDI Facility Service (Internal System)/splashscreen.jpg", "CDI Facility Service (Internal System)/login.png", "CDI Facility Service (Internal System)/main.png"]
+        },
+        {
+            "id": 3,
+            "title": "My Stock by Securerx",
+            "client": "PT. Solusi Sarana Sehat",
+            "link": "#",
+            "tags": "Inventory, Stock Opname, Internal Tools, HealthTech, Farmasi, Mobile App, Frontend Developer, iOS, Android",
+            "description": "An internal stock opname (inventory management) application developed for Farmaku. The app helps streamline stock tracking, counting, and reporting within the pharmacy supply chain.",
+            "images" : ["My Stock by Securerx (Stock Opname App)/list-scanned-barcode.png", "My Stock by Securerx (Stock Opname App)/scan-add-barcode.png"]
+        },
+        {
+            "id": 4,
+            "title": "SecureRx POS",
+            "client": "PT. Solusi Sarana Sehat",
+            "link": "#",
+            "tags": "Point of Sales, POS, Internal Tools, Pharmacy, Retail, HealthTech, Farmasi, Frontend Developer",
+            "description": "Point of Sales (POS) application developed for Farmaku.com. This app enables efficient transaction processing, inventory syncing, and sales reporting for pharmacy operations.",
+            "images" : ["SecureRx POS (Point Of Sales)/tablet-landscape-pos.png", "SecureRx POS (Point Of Sales)/tablet-landscape-login.png", "SecureRx POS (Point Of Sales)/tablet-landscape-customer.png"]
+        },
+        {
+            "id": 5,
+            "title": "SecureRx",
+            "client": "PT. Solusi Sarana Sehat",
+            "link": "https://admin.securerx.id",
+            "tags": "Internal System, CMS, Pharmacy, HealthTech, E-commerce, Operations, Farmasi, Web App",
+            "description": "A comprehensive internal system and CMS developed for Farmaku.com. SecureRx manages product catalogs, inventory, sales, users, and operational workflows, serving as the backbone for Farmaku’s digital pharmacy platform.",
+            "images" : ["SecureRx (Internal System)/login.png", "SecureRx (Internal System)/dashboard.png", "SecureRx (Internal System)/order-management.png", "SecureRx (Internal System)/edit-product.png"]
+        },
+        {
+            "id": 6,
+            "title": "HRM by SecureRx",
+            "client": "PT. Solusi Sarana Sehat",
+            "link": "https://hrm.securerx.id",
+            "tags": "HRM, Human Resource Management, Internal Tools, Employee Management, Payroll, Attendance, Farmasi, Web App, iOS, Android",
+            "description": "An internal Human Resource Management (HRM) application for Farmaku. This app helps manage employee data, attendance, payroll, and HR workflows in a centralized system.",
+            "images" : ["HRM by Securerx (HRM App)/attendance-list.png", "HRM by Securerx (HRM App)/employee-list.png", "HRM by Securerx (HRM App)/list-attendance.png", "HRM by Securerx (HRM App)/new-attendance.png"]
+        },
+        {
+            "id": 7,
+            "title": "Mentari Express",
+            "client": "Mentari Express Biro Jasa", 
+            "link": "https://www.mentariexpress.net",
+            "tags": "STNK Services, Vehicle Administration, Custom License Plates, Logistics, Internal Tools, Web App",
+            "description": "A specialized vehicle administration service in Jakarta—handling custom license plates, STNK renewal, ownership transfer, mutation, and more with convenient document pickup.",
+            "images" : ["Mentari Express (Compro & Internal System)/home.png", "Mentari Express (Compro & Internal System)/about.png", "Mentari Express (Compro & Internal System)/gallery-list.png"]
+        },
+        {
+            "id": 8,
+            "title": "Mentari Express CMS",
+            "client": "Mentari Express Biro Jasa", 
+            "link": "#",
+            "tags": "Internal System, CMS, Vehicle Administration, STNK Services, Management, Web App",
+            "description": "An internal CMS developed for Mentari Express to manage services, customers, and workflows—supporting STNK renewals, ownership transfers, and other vehicle administration processes.",
+            "images" : ["Mentari Express (Compro & Internal System)/cms-login.png", "Mentari Express (Compro & Internal System)/cms-list.png", "Mentari Express (Compro & Internal System)/cms-transaction.png"]
+        },
+        {
+            "id": 9,
+            "title": "Deli Metropolitan Group (Internal System)",
+            "client": "Deli Metropolitan Group", 
+            "link": "#",
+            "tags": "Internal System, CMS, Enterprise, Management, Operations, Web App",
+            "description": "An internal system developed for Deli Metropolitan Group to manage enterprise operations, internal workflows, and organizational processes across departments.",
+            "images" : ["Deli Metropolitan Group (Internal System)/login.png"]
+        },
+        {
+            "id": 10,
+            "title": "Intersys Car Audio",
+            "client": "Intersys.id", 
+            "link": "https://intersys.id",
+            "tags": "Car Audio, Automotive, E-commerce, Electronics, Web App, UI/UX",
+            "description": "A digital platform for Intersys Car Audio, a leading automotive audio and electronics brand. The system supports product showcase, e-commerce, and customer engagement for the Indonesian market.",
+            "images" : ["Intersys Car Audio (Compro)/home.png", "Intersys Car Audio (Compro)/event.png", "Intersys Car Audio (Compro)/product-list.png"]
+        },
+        {
+            "id": 11,
+            "title": "Media Audio",
+            "client": "MediaAudio.id", 
+            "link": "https://mediaaudio.id/",
+            "tags": "Car Audio, Automotive, Electronics, E-commerce, Web App, UI/UX",
+            "description": "A digital platform for Media Audio, providing premium car audio and automotive electronics. The system showcases products, supports e-commerce, and enhances customer engagement online.",
+            "images" : ["Media Audio (Compro)/home.png", "Media Audio (Compro)/agenda-list.png", "Media Audio (Compro)/product-list.png", "Media Audio (Compro)/cms.png"]
+        },
+        {
+            "id": 12,
+            "title": "Massindo Mentari",
+            "client": "Massindo Mentari", 
+            "link": "https://massindomentari.com/",
+            "tags": "In-Car Multimedia, Automotive Electronics, Distribution, E-commerce, Web App, Product Showcase",
+            "description": "A digital platform for Massindo Mentari, a leading distributor of in-car multimedia products in Indonesia. The system supports product showcasing, distribution management, and customer engagement online.",
+            "images" : ["Massindo Mentari (Compro)/home.png", "Massindo Mentari (Compro)/product-brand-list.png", "Massindo Mentari (Compro)/product-category-list.png"]
+        },
+        {
+            "id": 13,
+            "title": "Nexindo Audio Nugraha",
+            "client": "Nexindo Audio Nugraha", 
+            "link": "https://nexindo.com/",
+            "tags": "Car Audio, Automotive Electronics, Distribution, Web App, Product Showcase",
+            "description": "A digital presence for Nexindo Audio Nugraha—PCA Professional Car Audio Indonesia—distributing premium car audio brands like Scan-Speak, Zapco, PCA, Stinger, Dynaudio, and more.",
+            "images" : ["Nexindo Audio Nugraha (Compro)/home.png", "Nexindo Audio Nugraha (Compro)/brand-list.png", "Nexindo Audio Nugraha (Compro)/category-list.png"]
+        },
+        {
+            "id": 14,
+            "title": "Toyota Motor Manufacturing (Auto-Generated Reporting)",
+            "client": "PT. Toyota Motor Manufacturing Indonesia", 
+            "link": "#",
+            "tags": "Automotive, Manufacturing, Reporting System, Data Automation, Monitoring, Internal Tools",
+            "description": "An auto-generated reporting system for PT. Toyota Motor Manufacturing Indonesia. The system automatically generates daily production reports with furnace temperature monitoring, resource consumption tracking, alarm logs, and countermeasure records—helping streamline operations and decision-making.",
+            "images" : ["PT. Toyota Motor Manufacturing (Reporting)/report.png"]
+        },
+        {
+            "id": 15,
+            "title": "Farmaku Article",
+            "client": "PT. Solusi Sarana Sehat", 
+            "link": "https://www.farmaku.com/artikel/",
+            "tags": "Content Platform, WordPress, Articles, Blog, Health & Beauty, Web App",
+            "description": "A WordPress-based article section serving health, beauty, and wellness content for Farmaku users—covering topics like parenting, skincare, supplements, and lifestyle.",
+            "images" : ["Farmaku Article (Wordpress)/home.png", "Farmaku Article (Wordpress)/category.png", "Farmaku Article (Wordpress)/reccomendation.png"]
+        },
+        {
+            "id": 16,
+            "title": "Inni Zheng He Carbon",
+            "client": "PT. Inni Zheng He Carbon", 
+            "link": "https://innizhcarbon.com/",
+            "tags": "Manufacturing, Industrial, Activated Carbon, Distributor, Company Profile, SEO, Compro, Web App",
+            "description": "Corporate website with product showcase and SEO-optimized content for PT. Inni Zheng He Carbon, featuring activated carbon products (coconut shell & palm kernel shell), applications (air, water, precious metals), and company credentials.",
+            "images" : ["PT. Inni Zheng He Carbon (Compro & SEO)/about.png", "PT. Inni Zheng He Carbon (Compro & SEO)/about.png", "PT. Inni Zheng He Carbon (Compro & SEO)/product.png", "PT. Inni Zheng He Carbon (Compro & SEO)/cms-login.png"]
+        }
+    ]
+}
