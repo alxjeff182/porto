@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -35,6 +35,9 @@
     <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet">
 
 
+
+    <!-- MAGNIFICENT POPUP -->
+    <link href="stylesheets/vendors/magnific-popup.css" rel="stylesheet">
     <!-- MATERIALIZE -->
     <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
     <!-- BOOTSTRAP -->
@@ -44,8 +47,6 @@
     <!-- CUSTOM STYLE -->
     <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
 
-    <!--TOGGLE-->
-    <link href="toggle/toggle.css" rel="stylesheet">
 
 </head>
 
@@ -157,7 +158,7 @@
         <div class="container">
             <!--FOOTER DETAILS-->
             <p class="text-center">
-                © 2025 Jeffry Alexander. All rights reserved. 
+                © 2025 Jeffry Alexander. All rights reserved.
             </p>
         </div>
     </footer>
@@ -173,28 +174,68 @@
     <script src="javascript/vendors/scrollreveal.min.js"></script>
     <script src="javascript/vendors/swiper.jquery.min.js"></script>
     <script src="javascript/single-page.js"></script>
+    <script src="javascript/vendors/jquery.magnific-popup.min.js"></script>
     <script>
+        var swiper = new Swiper(".swiper-container", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
         fetch("javascript/projects.json")
             .then(res => res.json())
             .then(data => {
                 const params = new URLSearchParams(window.location.search);
-                const id = params.get("id") || 1; 
+                const id = params.get("id") || 1;
                 const project = data.projects.find(x => x.id == id);
-                let container = document.getElementById("swiper-img");
+
+                // Clear existing slides first (if needed)
+                swiper.removeAllSlides();
+
+                // Add slides dynamically
                 project.images.forEach(p => {
-                    container.innerHTML += ` 
-                    <div class="swiper-slide">
-                        <img class="img-responsive" alt="demo" style="width: 100%;height: 56vw;object-fit: cover;object-position: top;"
-                            src="images/portfolios/${p}">
-                    </div>`;
+                    swiper.appendSlide(`
+        <div class="swiper-slide"> 
+          <figure class="port-effect-up">
+            <img src="images/portfolios/${p}" href="images/portfolios/${p}" 
+                 class="img-slide-custom img-responsive popup-image" 
+                 alt="portfolio-demo" 
+                 style="width: 100%;height: 56vw;object-fit: cover;object-position: top;"/>
+          </figure> 
+        </div>
+      `);
                 });
+
+                // Update other details
                 document.getElementById("title").innerHTML = project.title;
                 document.getElementById("client").innerHTML = project.client;
                 document.getElementById("link").innerHTML = project.link;
                 document.getElementById("link").href = project.link;
                 document.getElementById("tags").innerHTML = project.tags;
-                document.getElementById("description").innerHTML = project.description; 
-            });
+                document.getElementById("description").innerHTML = project.description;
+
+                $(".popup-image").magnificPopup({
+                    type: "image",
+                    removalDelay: 160,
+                    callbacks: {
+                        beforeOpen: function () {
+                            this.st.image.markup = this.st.image.markup.replace("mfp-figure", "mfp-figure mfp-with-anim");
+                            this.st.mainClass = this.st.el.attr("data-effect");
+                        },
+                    },
+                    closeOnContentClick: true,
+                    midClick: true,
+                });
+                swiper.update();
+            });     
     </script>
 </body>
 
